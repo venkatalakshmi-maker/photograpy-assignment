@@ -16,15 +16,203 @@ nav ul{
     list-style: none;
     gap: 30px;
 }
-nav li a{
+nav ul li a{
     text-decoration: none;
     color: white;
     font-size:18px;
 
 }
 
-nav li a{
-    text-decoration: none;
+.navbar{
+    background-color:#00bcfc;
+    padding: 20px 40px;
+    border-radius:10px;
+}
+
+.login-btn a{
+    color:#00bcfc;
+    border:1px solid #oobcfc;
+    padding: 20px 40px
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+
+}
+
+
+
+.hero{
+    background-image:url(banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
     color: white;
-    font-size:16px;
+    text-align: center;
+    padding: 100px 80px 180px;
+}
+
+.hero-content h1{
+    font-size: 55px;
+    line-height:70px;
+    margin-top: 150px;
+}
+.hero-content p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.hero-content span{
+    color:#00bcfc;
+}
+.hero-btns{
+    margin-top: 30px;
+}
+.btn1{
+    color:white;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.btn2{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.card{
+    display:flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 100px;
+}
+.card1{
+    background-color: #00bcfc;
+    padding: 30px;
+    border-radius: 20px;
+}
+.card2{
+    border-radius: 15px;
+    width: 250px;
+    height: 180px;
+}
+.card-details{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.card-details h2{
+    color: #00bcfc;
+    margin-bottom: 15px;
+}
+.card-details span{
+    color:gray;
+}
+.hero-btn{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #00bcfc;
+    border: 1px solid #00bcfc;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+
+
+.hero2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 80px;
+
+}
+.content1{
+    border:1px solid gray;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+.hero-content2{
+    display: flex;
+    gap: 20px;
+}
+.hero-data1{
+    display:flex;
+    gap: 10px;
+}
+.hero-data1 p{
+    color:#00bcfc;
+}
+.hero-data1 span{
+    color:gray;
+}
+.image{
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.hero3{
+    background-image: url(closed-bg.jpg);
+    background-position: cover;
+    background-position: center;
+    padding: 100px 80px;
+    margin-top: 100px;
+}
+.hero-content3 p{
+    color: white;
+    margin--top: 10px;
+    font-size: 40px;
+}
+.hero-content3 h2{
+    color: white;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.hero-content3 span{
+    color: #00bcfc;
+}
+.hero-data2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+.content2{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.image2{
+    border-radius: 15px;
+}
+.hero-data3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.hero-data3 p{
+    color:#00bcfc;
+}
+.hero-data3 span{
+    color: gray;
+}
+.content2 h3{
+    margin-top: 20px;
+    color: black;
+}
+.hero-btn3{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #00bcfc;
+    border: 1px solid #00bcfc;
+    padding:10px 20px;
+    border-radius: 10px;
 }
